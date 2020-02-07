@@ -1,0 +1,24 @@
+{
+  "name": "omnipoduploader",
+  "version": "0.0.1",
+  "description": "Read omnipod IBF file and upload to mongodb",
+  "main": "main.js",
+  "dependencies": {
+    "ibf-file-reader": "git+https://github.com/cbarrette/ibf-file-reader.git",
+    "mongodb": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbarrette/omnipodUploader.git"
+  },
+  "author": "cbarrette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbarrette/omnipodUploader/issues"
+  },
+  "homepage": "https://github.com/cbarrette/omnipodUploader#readme"
+}
